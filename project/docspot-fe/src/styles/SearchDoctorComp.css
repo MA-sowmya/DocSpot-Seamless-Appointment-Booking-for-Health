@@ -1,0 +1,83 @@
+.slots {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slot {
+    width: 60px;
+    padding: 0.2rem;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0.2rem;
+    font-size: 0.8rem;
+    border-radius: 10%;
+}
+.slot.inactive:hover {
+    background-color: #eee;
+}
+
+
+
+.slot.active, .slots .active {
+    background-color: #42A5F5;
+    color: white
+}
+
+.slot.active:hover {
+    background-color: #1E88E5;
+    color: white;
+    cursor: pointer;
+}
+
+
+.top-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 0 1rem;
+}
+
+.profileImg {
+    width: 80px;
+    height: 80px;
+    margin-top: 0.5rem;
+}
+
+.doctors-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1rem;
+}
+
+.search-section {
+    display: flex;
+    margin: 2rem 0 1rem 0;
+    gap: 2rem;
+}
+
+.search-bar {
+    padding: 1rem;
+    border-radius: 10px;
+    flex-grow: 2;
+}
+
+
+.select {
+    flex-grow: 1;
+}
+
+.time-chip {
+    background-color: #eee;
+    width: 76px;
+    text-align: center;
+    padding: 0.4rem;
+}
+
+.book-modal {
+    width: 70%;
+    max-width: 90%;
+}

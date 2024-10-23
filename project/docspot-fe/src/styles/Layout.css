@@ -1,0 +1,44 @@
+ .bg-red {
+     background-color: red;
+ }
+
+ .banner {
+     width: 100vw;
+ }
+
+ .main-container {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 56px);
+    padding-top: 56px;
+ }
+
+ .main-content {
+    margin-left: 250px;
+    flex: 1;
+    overflow-y: auto;
+    height: calc(100vh - 56px);
+    padding: 1rem;
+ }
+
+ .form {
+     position: absolute;
+     top: 6%;
+     right: 20%;
+     background-color: transparent;
+     opacity: 90%;
+     padding: 2rem;
+     width: 25%;
+     border: 1px solid #eeeeee;
+     background-color: #eee;
+ }
+
+ .title {
+     font-size: 1.2rem;
+     padding: 1rem;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bold;
+     color: gray;
+     text-transform: uppercase;
+     text-align: center;
+ }

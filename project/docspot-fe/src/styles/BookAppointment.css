@@ -1,0 +1,27 @@
+.time-chip {
+    background-color: #42A5F5;
+    color: white;
+    cursor: pointer;
+}
+
+.time-chip.active {
+    background-color: #00695C;
+}
+
+.time-chip.active:hover {
+    background-color: #00695C;
+    color: white;
+    cursor: pointer;
+}
+
+.time-chip.active svg {
+    font-size: 1rem;
+}
+
+.time-chip:hover {
+    background-color: #1E88E5;
+    color: white;
+    cursor: pointer;
+}
+
+/* #0D47A1 */
